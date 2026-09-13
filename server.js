@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "http://13.48.166.164:8501",
+    target:"https://ats-system-1-a6dv.onrender.com",
     changeOrigin: true,
     ws: true
   })
